@@ -15,23 +15,21 @@ Analysis – Explore trends, calculate metrics, and detect patterns
 Visualization – Generate charts to easily interpret crypto market data
 
 Pipeline Automation – Full workflow runs with minimal manual intervention
-
-📂 Project Structure
 crypto-data-pipeline/
 │
-├── fetch_data.py           # Fetch live crypto data from APIs
-├── process_data.py         # Clean and process raw data
-├── store_data.py           # Store data in CSV, JSON, and SQLite
-├── analyze_data.py         # Analyze cryptocurrency trends
+├── fetch_data.py
+├── process_data.py
+├── store_data.py
+├── analyze_data.py
 │
-├── crypto_data.json        # Raw API data
-├── processed_crypto_data.csv # Cleaned and structured data
-├── crypto_prices.db        # SQLite database
+├── crypto_data.json
+├── processed_crypto_data.csv
+├── crypto_prices.db
 │
-├── chart.png               # Visualization of crypto trends
-└── README.md               # Project documentation
+├── chart.png
+└── README.md
 📊 Example Output
-
+<p align="center"> <img src="chart.png" alt="Crypto Trend Chart" width="600"/> </p>
 
 Figure: Automatically generated cryptocurrency price trends from the pipeline.
 
@@ -58,25 +56,13 @@ Automate workflows with Python scripts
 Perform analysis and visualization for insights
 
 Apply skills relevant to Data Engineer, Python Developer, or AI Engineer roles
-
-🚀 How to Run
-
-Clone the repository:
-
 git clone https://github.com/webdomain0126/crypto-data-pipeline.git
 cd crypto-data-pipeline
-
-Install dependencies:
-
 pip install -r requirements.txt
-
-Run the pipeline:
-
 python fetch_data.py
 python process_data.py
 python store_data.py
 python analyze_data.py
-
 Check outputs:
 
 processed_crypto_data.csv
